@@ -56,7 +56,7 @@ def createBoard(fileName):
 def fileValidate():
     while(True):
         try:
-            fileName = input("Please pick a file to read, or type ‘quit’ to exit: ")
+            fileName = input("Please pick a file to read, or type â€˜quitâ€™ to exit: ")
             if fileName.lower() == "quit":
                 return fileName
             inData = open(fileName, "r")
