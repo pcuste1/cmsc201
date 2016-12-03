@@ -5,11 +5,11 @@
 # Email: pcuste1@umbc.edu
 # Description:
 
-# This function opens the “cipher.txt” file and determines if the file had 26 
+# This function opens the â€œcipher.txtâ€ file and determines if the file had 26 
 # entries. Remember, you ARE guaranteed that the file will not have an issue 
 # of duplicate alphabetical letters. (But it may have duplicate cipher letters!!)
 # returns False if the file is NOT 26 lines long, returns a LIST IF the file
-# was 26 lines. Ex: List   [‘A C’, ‘B F’, etc…]
+# was 26 lines. Ex: List   [â€˜A Câ€™, â€˜B Fâ€™, etcâ€¦]
 def validateFileLength():
     inFile = open("cipher.txt", 'r')
     listOfCiphers = []
@@ -63,7 +63,7 @@ def printRegularTextFile():
             
 # This function does the most work. It must verify the loaded cipher using 
 # validateCipher() function. The list of ciphers MUST be loaded before this 
-# function is called!! Terminate the conversion (not the program) if the cipher # is bad, and DELETE the cipher if present. Otherwise it will ask for a file to # convert, and write the results to “results.txt”
+# function is called!! Terminate the conversion (not the program) if the cipher # is bad, and DELETE the cipher if present. Otherwise it will ask for a file to # convert, and write the results to â€œresults.txtâ€
 def convertToCipher(listOfCiphers):
     while True:
         try:
